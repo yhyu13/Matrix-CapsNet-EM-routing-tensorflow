@@ -1,4 +1,4 @@
-# Matrix-Capsule-EM-tensorflow
+# Matrix-CapsNet-EM-routing-tensorflow
 This is a trial implementation of Hinton group's [MATRIX CAPSULES WITH EM ROUTING](https://openreview.net/pdf?id=HJWLfGWRb) in TensorFlow and Python programming language. （仅供交流学习使用 Education purpose only）
 
 # Project completeness 10%, models are forked from CapsNet implementation.
