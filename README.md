@@ -25,7 +25,10 @@ Link to CapsNet implementation （仅供交流学习使用 Education purpose onl
 
 ### Download NORB
 
-```./data/download.sh```
+```cd data```
+```./download.sh```
+
+The dataset will be available under folder ```smallNORB```.
 
 ![](/figure/sample1.png)
 
@@ -34,6 +37,8 @@ Link to CapsNet implementation （仅供交流学习使用 Education purpose onl
 ### Write to TFRecord
 
 ```python dataset.py tfrecord```
+
+The tfrecord files will appear under folder ```data```.
 
 ## Reference:
 
