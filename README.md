@@ -1,7 +1,7 @@
 # Matrix-CapsNet-EM-routing-tensorflow
-This is a trial implementation of Hinton group's [MATRIX CAPSULES WITH EM ROUTING](https://openreview.net/pdf?id=HJWLfGWRb) in TensorFlow and Python programming language. （仅供交流学习使用 Education purpose only）
+This is a trial implementation of [MATRIX CAPSULES WITH EM ROUTING](https://openreview.net/pdf?id=HJWLfGWRb) in TensorFlow framework and Python programming language. （仅供交流学习使用 Education purpose only）
 
-# Project completeness 10%, models are forked from CapsNet implementation.
+# Project completeness 10%. For a workable repository, see https://github.com/www0wwwjs1/Matrix-Capsules-EM-Tensorflow
 
 ## Related Work
 
@@ -18,8 +18,6 @@ Link to CapsNet implementation （仅供交流学习使用 Education purpose onl
 - [ ] Reproduce experiments on smallNORB dataset (if manageable)
 
 ## Dataset
-
-[smallNORB](https://cs.nyu.edu/~ylclab/data/norb-v1.0-small/)
 
 > This database is intended for experiments in 3D object reocgnition from shape. It contains images of 50 toys belonging to 5 generic categories: four-legged animals, human figures, airplanes, trucks, and cars. The objects were imaged by two cameras under 6 lighting conditions, 9 elevations (30 to 70 degrees every 5 degrees), and 18 azimuths (0 to 340 every 20 degrees).
 
@@ -43,4 +41,4 @@ Link to CapsNet implementation （仅供交流学习使用 Education purpose onl
 
 [MATRIX CAPSULES WITH EM ROUTING](https://openreview.net/pdf?id=HJWLfGWRb)
 
-Y. LeCun, F.J. Huang, L. Bottou, Learning Methods for Generic Object Recognition with Invariance to Pose and Lighting. IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR) 2004
+[THE small NORB DATASET, V1.0](https://cs.nyu.edu/~ylclab/data/norb-v1.0-small/)
