@@ -70,7 +70,6 @@ def write_data_to_tfrecord(kind: str, chunkify=False):
         if j == 0:
             plot_imgs(images[:10])
         '''
-
         """Write to tfrecord"""
         writer = tf.python_io.TFRecordWriter(f"./data/{kind}{j}.tfrecords")
         for i in range(num_images):

@@ -29,7 +29,9 @@ Link to CapsNet implementation （仅供交流学习使用 Education purpose onl
 
 ```./data/download.sh```
 
-![](/figure/sample3x3.png)
+![](/figure/sample1.png)
+
+![](/figure/sample2.png)
 
 ### Write to TFRecord
 
