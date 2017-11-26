@@ -41,8 +41,8 @@ class Net(object):
             self.labels = tf.placeholder(tf.float32,
                                          shape=[self.num_batch if flags.MODE == 'train' else None,
                                                 self.num_classes])
-            models = {'cap': lambda: CapsNet(hps, self.imgs, self.labels),
-                      'cnn': lambda: CNNBaseline(hps, self.imgs, self.labels)}
+            models = {'MCAP': lambda: CapsNet(hps, self.imgs, self.labels),
+                      'DCGAN': lambda: CNNBaseline(hps, self.imgs, self.labels)}
             self.model = models[flags.model]()
             logger.debug("Building Model...")
 
