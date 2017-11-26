@@ -30,11 +30,13 @@ def write_data_to_tfrecord(kind: str, chunkify=False):
     start = time()
     """Read data"""
     if kind == "train":
-        fid_images = open('./data/NORB/smallnorb-5x46789x9x18x6x2x96x96-training-dat.mat', 'rb')
-        fid_labels = open('./data/NORB/smallnorb-5x46789x9x18x6x2x96x96-training-cat.mat', 'rb')
+        fid_images = open(
+            './data/smallNORB/smallnorb-5x46789x9x18x6x2x96x96-training-dat.mat', 'rb')
+        fid_labels = open(
+            './data/smallNORB/smallnorb-5x46789x9x18x6x2x96x96-training-cat.mat', 'rb')
     elif kind == "test":
-        fid_images = open('./data/NORB/smallnorb-5x01235x9x18x6x2x96x96-testing-dat.mat', 'rb')
-        fid_labels = open('./data/NORB/smallnorb-5x01235x9x18x6x2x96x96-testing-cat.mat', 'rb')
+        fid_images = open('./data/smallNORB/smallnorb-5x01235x9x18x6x2x96x96-testing-dat.mat', 'rb')
+        fid_labels = open('./data/smallNORB/smallnorb-5x01235x9x18x6x2x96x96-testing-cat.mat', 'rb')
     else:
         logger.warning('Please choose either training or testing data to preprocess.')
 
