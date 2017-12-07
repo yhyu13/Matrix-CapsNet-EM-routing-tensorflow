@@ -1,7 +1,7 @@
 # Matrix-CapsNet-EM-routing-tensorflow
 This is a trial implementation of [MATRIX CAPSULES WITH EM ROUTING](https://openreview.net/pdf?id=HJWLfGWRb) in TensorFlow framework and Python programming language. （仅供交流学习使用 Education purpose only）
 
-# Project completeness 10%. For a workable repository, see https://github.com/www0wwwjs1/Matrix-Capsules-EM-Tensorflow
+# Project completeness 10%. To see a finsihed collaborative repository, see https://github.com/www0wwwjs1/Matrix-Capsules-EM-Tensorflow
 
 ## Related Work
 
